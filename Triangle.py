@@ -5,7 +5,7 @@
 
 from Shape import Shape
 
-class Rectangle(Shape):
+class Triangle(Shape):
     # Define local class variables
     __height = 1.0
     __width = 1.0
