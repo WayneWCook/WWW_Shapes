@@ -18,7 +18,7 @@ class Octogon(Shape):
         self.__side = side
 
     def get_area(self):
-        return self.__height*self.__base /2.0
+        return self.__side
 
     def get_perimeter(self):
         return self.__side * 8
