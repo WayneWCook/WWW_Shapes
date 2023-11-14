@@ -14,7 +14,7 @@ class Octogon(Shape):
         #print(f"Dimentions: {self.__side} x 8")
         Shape.set_type(self,"Octogon")
 
-    def set_dimensions(self, hside):
+    def set_dimensions(self, side):
         self.__side = side
 
     def get_area(self):
